@@ -1,0 +1,11 @@
+@import './base.css';
+
+#app {
+  @apply max-w-screen-xl m-0 my-auto p-8 font-normal;
+  @apply md:grid md:grid-cols-[1fr 1fr] 
+}
+
+body {
+  @apply min-h-screen bg-gray-900 text-white
+  @apply md:flex md:place-items-center 
+}
