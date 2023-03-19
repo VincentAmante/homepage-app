@@ -26,7 +26,6 @@
         poster_path: string
     }
     
-    // 
     const mediaData = ref<Media[]>([])
     const movieDB = useMovieDB()
     const user = useUserStore()
